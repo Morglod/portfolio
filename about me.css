@@ -1,6 +1,17 @@
-* {
-  font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+body {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-align: -webkit-center;
+  background-color: #f5f5ef;
+  height: 100%;
   font-size: 16px;
+}
+p,
+a,
+label {
+  font-family: "Open Sans", Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -23,7 +34,7 @@ h4 {
   font-weight: 700;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.7em;
   font-weight: 500;
   font-family: "Times New Roman";
 }
@@ -37,36 +48,11 @@ h3 {
   margin-top: -0.7px;
   color: gray;
 }
-body {
-  margin-top: 10em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  text-align: -webkit-center;
-  background-color: #f5f5ef;
-  height: 100%;
-}
-body::-webkit-scrollbar {
-  display: none;
-}
 hr {
   width: 400px;
 }
 label[for] {
   cursor: pointer;
-}
-label[for='options_block_option'] {
-  color: rgba(90, 90, 90, 0.57);
-}
-label[for='options_block_option']:hover {
-  color: rgba(90, 90, 90, 0.8);
-}
-label[for='options_block_option']:before {
-  font-size: 1.3em;
-  content: '≡ ';
-}
-#js_block_option:checked ~ * hr {
-  width: 576px;
 }
 #animations_option {
   display: none;
@@ -97,6 +83,7 @@ label[for='options_block_option']:before {
   display: none;
 }
 #update_me_error:checked + .update_me_error_label > h1 {
+  position: absolute;
   transition-duration: 0.0001s;
   opacity: 0;
 }
