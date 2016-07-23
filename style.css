@@ -1253,6 +1253,11 @@ body {
   font-size: 16px;
   overflow-y: scroll;
 }
+.visit_counter {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
 p,
 a,
 label {
