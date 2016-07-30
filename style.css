@@ -392,62 +392,25 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.animation_option:checked ~ * ._14_block {
-    transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
-}
-
-#_14_block_option {
-    display: none;
-}
-
-#_14_block_option:checked ~ * ._14_block {
-    opacity: 1;
-    height: auto;
-}
-
-#_14_block_option:not(:checked) ~ * ._14_block {
-    opacity: 0;
-    height: 0px !important;
-    cursor: initial;
-	pointer-events: none;
-}
-
-#_14_block_option:checked ~ * label[for=_14_block_option] {
-    color: initial !important;
-}
-
-#_14_block_option:checked ~ * label[for=_14_block_option] > h3 {
-    margin-bottom: 1em;
-    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    color: initial;
-}
-
-#_14_block_option:checked ~ * label[for=_14_block_option] > h3:before {
-    content: "Технологии: ";
-}
-._15_preview {
+._14_preview {
     visibility: hidden;
 }
 
-.animation_option:checked ~ * ._15_img {
+.animation_option:checked ~ * ._14_img {
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-._15_img {
+._14_img {
     z-index: 1;
 }
 
-._15_preview:not(:checked) ~ label > ._15_img {
+._14_preview:not(:checked) ~ label > ._14_img {
     max-width: 200px;
     max-height: 150px;
 }
 
-._15_preview:checked ~ label > ._15_img {
+._14_preview:checked ~ label > ._14_img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -456,6 +419,43 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+.animation_option:checked ~ * ._15_block {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+#_15_block_option {
+    display: none;
+}
+
+#_15_block_option:checked ~ * ._15_block {
+    opacity: 1;
+    height: auto;
+}
+
+#_15_block_option:not(:checked) ~ * ._15_block {
+    opacity: 0;
+    height: 0px !important;
+    cursor: initial;
+	pointer-events: none;
+}
+
+#_15_block_option:checked ~ * label[for=_15_block_option] {
+    color: initial !important;
+}
+
+#_15_block_option:checked ~ * label[for=_15_block_option] > h3 {
+    margin-bottom: 1em;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: initial;
+}
+
+#_15_block_option:checked ~ * label[for=_15_block_option] > h3:before {
+    content: "Технологии: ";
 }
 ._16_preview {
     visibility: hidden;
@@ -485,62 +485,25 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.animation_option:checked ~ * ._17_block {
-    transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
-}
-
-#_17_block_option {
-    display: none;
-}
-
-#_17_block_option:checked ~ * ._17_block {
-    opacity: 1;
-    height: auto;
-}
-
-#_17_block_option:not(:checked) ~ * ._17_block {
-    opacity: 0;
-    height: 0px !important;
-    cursor: initial;
-	pointer-events: none;
-}
-
-#_17_block_option:checked ~ * label[for=_17_block_option] {
-    color: initial !important;
-}
-
-#_17_block_option:checked ~ * label[for=_17_block_option] > h3 {
-    margin-bottom: 1em;
-    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    color: initial;
-}
-
-#_17_block_option:checked ~ * label[for=_17_block_option] > h3:before {
-    content: "Технологии: ";
-}
-._18_preview {
+._17_preview {
     visibility: hidden;
 }
 
-.animation_option:checked ~ * ._18_img {
+.animation_option:checked ~ * ._17_img {
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-._18_img {
+._17_img {
     z-index: 1;
 }
 
-._18_preview:not(:checked) ~ label > ._18_img {
+._17_preview:not(:checked) ~ label > ._17_img {
     max-width: 200px;
     max-height: 150px;
 }
 
-._18_preview:checked ~ label > ._18_img {
+._17_preview:checked ~ label > ._17_img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -549,6 +512,43 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+.animation_option:checked ~ * ._18_block {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+#_18_block_option {
+    display: none;
+}
+
+#_18_block_option:checked ~ * ._18_block {
+    opacity: 1;
+    height: auto;
+}
+
+#_18_block_option:not(:checked) ~ * ._18_block {
+    opacity: 0;
+    height: 0px !important;
+    cursor: initial;
+	pointer-events: none;
+}
+
+#_18_block_option:checked ~ * label[for=_18_block_option] {
+    color: initial !important;
+}
+
+#_18_block_option:checked ~ * label[for=_18_block_option] > h3 {
+    margin-bottom: 1em;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: initial;
+}
+
+#_18_block_option:checked ~ * label[for=_18_block_option] > h3:before {
+    content: "Технологии: ";
 }
 ._19_preview {
     visibility: hidden;
@@ -606,33 +606,42 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-._21_preview {
-    visibility: hidden;
-}
-
-.animation_option:checked ~ * ._21_img {
-    transition-duration: 0.5s;
+.animation_option:checked ~ * ._21_block {
+    transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-._21_img {
-    z-index: 1;
+#_21_block_option {
+    display: none;
 }
 
-._21_preview:not(:checked) ~ label > ._21_img {
-    max-width: 200px;
-    max-height: 150px;
-}
-
-._21_preview:checked ~ label > ._21_img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
+#_21_block_option:checked ~ * ._21_block {
+    opacity: 1;
     height: auto;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+}
+
+#_21_block_option:not(:checked) ~ * ._21_block {
+    opacity: 0;
+    height: 0px !important;
+    cursor: initial;
+	pointer-events: none;
+}
+
+#_21_block_option:checked ~ * label[for=_21_block_option] {
+    color: initial !important;
+}
+
+#_21_block_option:checked ~ * label[for=_21_block_option] > h3 {
+    margin-bottom: 1em;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: initial;
+}
+
+#_21_block_option:checked ~ * label[for=_21_block_option] > h3:before {
+    content: "Технологии: ";
 }
 ._22_preview {
     visibility: hidden;
@@ -718,42 +727,33 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.animation_option:checked ~ * ._25_block {
-    transition-duration: 0.2s;
+._25_preview {
+    visibility: hidden;
+}
+
+.animation_option:checked ~ * ._25_img {
+    transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-#_25_block_option {
-    display: none;
+._25_img {
+    z-index: 1;
 }
 
-#_25_block_option:checked ~ * ._25_block {
-    opacity: 1;
+._25_preview:not(:checked) ~ label > ._25_img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+._25_preview:checked ~ label > ._25_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
     height: auto;
-}
-
-#_25_block_option:not(:checked) ~ * ._25_block {
-    opacity: 0;
-    height: 0px !important;
-    cursor: initial;
-	pointer-events: none;
-}
-
-#_25_block_option:checked ~ * label[for=_25_block_option] {
-    color: initial !important;
-}
-
-#_25_block_option:checked ~ * label[for=_25_block_option] > h3 {
-    margin-bottom: 1em;
-    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    color: initial;
-}
-
-#_25_block_option:checked ~ * label[for=_25_block_option] > h3:before {
-    content: "Технологии: ";
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 ._26_preview {
     visibility: hidden;
@@ -839,60 +839,32 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-._29_preview {
-    visibility: hidden;
-}
-
-.animation_option:checked ~ * ._29_img {
-    transition-duration: 0.5s;
-    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
-}
-
-._29_img {
-    z-index: 1;
-}
-
-._29_preview:not(:checked) ~ label > ._29_img {
-    max-width: 200px;
-    max-height: 150px;
-}
-
-._29_preview:checked ~ label > ._29_img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.animation_option:checked ~ * ._30_block {
+.animation_option:checked ~ * ._29_block {
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-#_30_block_option {
+#_29_block_option {
     display: none;
 }
 
-#_30_block_option:checked ~ * ._30_block {
+#_29_block_option:checked ~ * ._29_block {
     opacity: 1;
     height: auto;
 }
 
-#_30_block_option:not(:checked) ~ * ._30_block {
+#_29_block_option:not(:checked) ~ * ._29_block {
     opacity: 0;
     height: 0px !important;
     cursor: initial;
 	pointer-events: none;
 }
 
-#_30_block_option:checked ~ * label[for=_30_block_option] {
+#_29_block_option:checked ~ * label[for=_29_block_option] {
     color: initial !important;
 }
 
-#_30_block_option:checked ~ * label[for=_30_block_option] > h3 {
+#_29_block_option:checked ~ * label[for=_29_block_option] > h3 {
     margin-bottom: 1em;
     font-family: "Open Sans", Verdana, Tahoma, sans-serif;
     font-size: 16px;
@@ -901,8 +873,36 @@
     color: initial;
 }
 
-#_30_block_option:checked ~ * label[for=_30_block_option] > h3:before {
+#_29_block_option:checked ~ * label[for=_29_block_option] > h3:before {
     content: "Технологии: ";
+}
+._30_preview {
+    visibility: hidden;
+}
+
+.animation_option:checked ~ * ._30_img {
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+._30_img {
+    z-index: 1;
+}
+
+._30_preview:not(:checked) ~ label > ._30_img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+._30_preview:checked ~ label > ._30_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 ._31_preview {
     visibility: hidden;
@@ -988,33 +988,42 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-._34_preview {
-    visibility: hidden;
-}
-
-.animation_option:checked ~ * ._34_img {
-    transition-duration: 0.5s;
+.animation_option:checked ~ * ._34_block {
+    transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-._34_img {
-    z-index: 1;
+#_34_block_option {
+    display: none;
 }
 
-._34_preview:not(:checked) ~ label > ._34_img {
-    max-width: 200px;
-    max-height: 150px;
-}
-
-._34_preview:checked ~ label > ._34_img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
+#_34_block_option:checked ~ * ._34_block {
+    opacity: 1;
     height: auto;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+}
+
+#_34_block_option:not(:checked) ~ * ._34_block {
+    opacity: 0;
+    height: 0px !important;
+    cursor: initial;
+	pointer-events: none;
+}
+
+#_34_block_option:checked ~ * label[for=_34_block_option] {
+    color: initial !important;
+}
+
+#_34_block_option:checked ~ * label[for=_34_block_option] > h3 {
+    margin-bottom: 1em;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: initial;
+}
+
+#_34_block_option:checked ~ * label[for=_34_block_option] > h3:before {
+    content: "Технологии: ";
 }
 ._35_preview {
     visibility: hidden;
@@ -1072,42 +1081,33 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.animation_option:checked ~ * ._37_block {
-    transition-duration: 0.2s;
+._37_preview {
+    visibility: hidden;
+}
+
+.animation_option:checked ~ * ._37_img {
+    transition-duration: 0.5s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-#_37_block_option {
-    display: none;
+._37_img {
+    z-index: 1;
 }
 
-#_37_block_option:checked ~ * ._37_block {
-    opacity: 1;
+._37_preview:not(:checked) ~ label > ._37_img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+._37_preview:checked ~ label > ._37_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
     height: auto;
-}
-
-#_37_block_option:not(:checked) ~ * ._37_block {
-    opacity: 0;
-    height: 0px !important;
-    cursor: initial;
-	pointer-events: none;
-}
-
-#_37_block_option:checked ~ * label[for=_37_block_option] {
-    color: initial !important;
-}
-
-#_37_block_option:checked ~ * label[for=_37_block_option] > h3 {
-    margin-bottom: 1em;
-    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    color: initial;
-}
-
-#_37_block_option:checked ~ * label[for=_37_block_option] > h3:before {
-    content: "Технологии: ";
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 ._38_preview {
     visibility: hidden;
@@ -1193,18 +1193,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-label[for=_41_block_option] {
-    color: rgba(90, 90, 90, 0.57);
-}
-
-label[for=_41_block_option]:hover {
-    color: rgba(90, 90, 90, 0.80);
-}
-
-label[for=_41_block_option]:before {
-    font-size: 1.3em;
-    content: '≡ ';
-}
 .animation_option:checked ~ * ._41_block {
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -1240,6 +1228,139 @@ label[for=_41_block_option]:before {
 }
 
 #_41_block_option:checked ~ * label[for=_41_block_option] > h3:before {
+    content: "Технологии: ";
+}
+._42_preview {
+    visibility: hidden;
+}
+
+.animation_option:checked ~ * ._42_img {
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+._42_img {
+    z-index: 1;
+}
+
+._42_preview:not(:checked) ~ label > ._42_img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+._42_preview:checked ~ label > ._42_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+._43_preview {
+    visibility: hidden;
+}
+
+.animation_option:checked ~ * ._43_img {
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+._43_img {
+    z-index: 1;
+}
+
+._43_preview:not(:checked) ~ label > ._43_img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+._43_preview:checked ~ label > ._43_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+._44_preview {
+    visibility: hidden;
+}
+
+.animation_option:checked ~ * ._44_img {
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+._44_img {
+    z-index: 1;
+}
+
+._44_preview:not(:checked) ~ label > ._44_img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+._44_preview:checked ~ label > ._44_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+label[for=_45_block_option] {
+    color: rgba(90, 90, 90, 0.57);
+}
+
+label[for=_45_block_option]:hover {
+    color: rgba(90, 90, 90, 0.80);
+}
+
+label[for=_45_block_option]:before {
+    font-size: 1.3em;
+    content: '≡ ';
+}
+.animation_option:checked ~ * ._45_block {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+#_45_block_option {
+    display: none;
+}
+
+#_45_block_option:checked ~ * ._45_block {
+    opacity: 1;
+    height: auto;
+}
+
+#_45_block_option:not(:checked) ~ * ._45_block {
+    opacity: 0;
+    height: 0px !important;
+    cursor: initial;
+	pointer-events: none;
+}
+
+#_45_block_option:checked ~ * label[for=_45_block_option] {
+    color: initial !important;
+}
+
+#_45_block_option:checked ~ * label[for=_45_block_option] > h3 {
+    margin-bottom: 1em;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: initial;
+}
+
+#_45_block_option:checked ~ * label[for=_45_block_option] > h3:before {
     content: "Технологии: ";
 }
 body {
