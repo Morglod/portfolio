@@ -1391,11 +1391,19 @@ a {
   color: inherit;
 }
 .a {
-  text-decoration: underline dashed;
-  text-decoration-color: #a8a8a8;
+	/* Not working in chrome wtf nice */ 
+	text-decoration: underline;
+    /*text-decoration-color: #a8a8a8;
+    text-decoration-style: dashed;*/
+    color: #676767;
+  /*text-decoration: underline dashed;
+  text-decoration-color: #a8a8a8;*/
 }
 .a:hover {
-  text-decoration: underline;
+	 text-decoration: initial;
+    color: #1146ff;
+
+ /* text-decoration: underline; */
 }
 h1,
 h2,
